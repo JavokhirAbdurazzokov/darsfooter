@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1220px ;
+}
+header{
+    padding: 20px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+}
+.ota ul{
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    margin-left: auto;
+    margin-top: 10px;
+    border: none;   
+}
+.business-text{
+   width: 550px;
+   font-size: 25px;
+
+}
+.business-text button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+
+}
+
+.business{
+    display: flex;
+    padding: 100px 0;
+    gap: 80px;
+    align-items: center;
+}
+.btn2{
+    padding: 15px;
+    color: white;
+    background-color: #1AAB7B;
+    border-radius: 15px;
+}
+.ota button{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+.ota button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+}
+.ota ul li:hover{
+    color: #1AAB7B;
+}
+.next button:hover{
+    background-color: white;
+    color: #1AAB7B;
+    border: #1AAB7B solid;
+}
+h2{
+   text-align: center;  
+   
+}
+.card{
+font-size: 20px;
+border: 1px solid gray  ;
+width: 384px;
+padding: 40px 30px;
+font-size: 22px;
+}
+.card p{
+    padding: 20px;
+}
+.help{
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap; 
+}
+.card h3::after{
+    content: url(./img/Group\ 39346.png);
+    margin-left: 120px;
+}
+
+.card:hover{
+    background-color: green;
+    color: white;
+
+}
+.mars{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.mars p{
+    max-width: 650px;
+    margin: 10px auto;
+}
+.imgmars{
+    background-image: url(img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0;
+  
+
+}
+.imgmars button{
+    background-color: #1AAB7B;
+    color: #f8f8f8;
+    padding: 20px ;
+    border-radius: 10px;
+}
+.imgmars button:hover{
+color: #1AAB7B;
+background-color: white;
+}
+form{
+   background-color: black;
+   opacity: 0.5;
+   padding: 10px;
+   max-width: 565px;
+   margin: 10px auto;
+   color:black;
+   opacity: 0.5;
+}
+ input{
+    width: 550px;
+    height: 46px;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+ }
+ .imgmars form input{
+    color: white;
+ }
+ .leave{
+    font-size: 25px;
+ }
+footer{
+    background-color: black;
+}
+.ota4{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.Connect i{
+font-size: 26px;
+padding: 20px;
+}
+.pixer img{
+    padding-bottom: 25px;
+    
+}
+.pixer{
+    margin-top: 50px;
+}
+.Resources{
+    margin-top: 50px;
+
+}
+.Connect{
+    margin-top: 50px;
+
+}
+
+
+
+
